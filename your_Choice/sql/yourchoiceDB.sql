@@ -1,0 +1,70 @@
+
+/* Drop Triggers */
+
+DROP TRIGGER TRI_USERINFO_USERINFO;
+
+
+
+
+/* Drop Tables */
+
+DROP TABLE VOTE CASCADE CONSTRAINTS;
+DROP TABLE USERINFO CASCADE CONSTRAINTS;
+
+
+
+/* Drop Sequences */
+
+DROP SEQUENCE SEQ_USERINFO_USERINFO;
+
+
+
+
+/* Create Sequences */
+
+CREATE SEQUENCE SEQ_USERINFO_USERINFO INCREMENT BY 1 START WITH 1;
+
+
+
+/* Create Tables */
+
+CREATE TABLE USERINFO
+(
+	userNum number NOT NULL,
+	nickName varchar2(30) NOT NULL UNIQUE,
+	sex varchar2(10) NOT NULL,
+	age number NOT NULL,
+	location varchar2(20) NOT NULL,
+	PRIMARY KEY (userNum)
+);
+
+
+CREATE TABLE VOTE
+(
+	userNum number NOT NULL,
+	vHuman number,
+	vAi number,
+	PRIMARY KEY (userNum)
+);
+
+
+
+/* Create Foreign Keys */
+
+ALTER TABLE VOTE
+	ADD FOREIGN KEY (USERNum)
+	REFERENCES USERINFO (USERNum)
+;
+
+
+
+/* Create Triggers */
+
+CREATE OR REPLACE TRIGGER TRI_USER_userNo AFTER INSERT ON USERINFO
+FOR EACH ROW
+BEGIN
+	INSERT INTO VOTE VALUES(SEQ_USERINFO_USERINFO.CURRVAL, 0, 0);
+END;
+/
+
+
