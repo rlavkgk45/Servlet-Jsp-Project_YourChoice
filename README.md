@@ -40,7 +40,7 @@ GitHub Hyperlink : [URL](https://github.com/rlavkgk45/Servlet-JspProject_YourCho
   * BootStrap
   * Free Template
 * Server
-  * Apache Tomca
+  * Apache Tomcat
 * Plug In
   * Maven
 * API
