@@ -12,7 +12,7 @@ public static void main(String [] args){
 GitHub Hyperlink : [URL](https://github.com/rlavkgk45/Servlet-JspProject_YourChoice)
 
 ### USED
-* Java
+* JAVA
 * Pattern
   * MVC
   * Singleton  
