@@ -1,36 +1,46 @@
-## JavaProject
-공공데이터 Api를 사용하여 지역명 검색으로 해당 지역의 모든 행사 조회 서비스 구현
+## Servlet-JspProject
+사용자가 두가지의 그림 중 한가지를 선택하여 투표를 하고 투표 결과를 차트화 시켜 시각화 하는 플랫폼
+admin 계정으로 접속시 모든 사용자들의 결과와 다각도에서 차트를 볼 수 있다.
 
 ````JAVA
 public static void main(String [] args){
-  System.out.println("Hellow My JavaProject");
+  System.out.println("Hellow My Servlet-JspProject");
 }
 ``````
 
-GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
+GitHub Hyperlink : [URL](https://github.com/rlavkgk45/Servlet-JspProject_YourChoice)
 
 ### USED
 * Java
-  * JDBC
 * Pattern
   * MVC
   * Singleton  
-  * DTO
+  * Command
   * DAO
+  * DTO
 * FrameWork & Library
-  * Public data API(REST API)
+  * Servlet
+    * service
+    * session
   * Lombok
   * Json
-  * Json Simple
+  * JDBC
+  * ERMaster
 * DataBase
   * OracleDB
+  * PL/SQL
+  * Trigger
+* Web Site
+  * HTML
+  * JSP
+  * CSS
+  * BootStrap
+  * Free Template
 * Plug In
   * Maven
-    * Log4J
 
 ### Used Table
 TableName|TABTYPE|
 ---|---|
-Event|TABLE|
-Category|TABLE|
-Location|TABLE|
+USERINFO|TABLE|
+VOTE|TABLE|
