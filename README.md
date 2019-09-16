@@ -59,3 +59,10 @@ VOTE|TABLE|
 👤 Kyungwon Kim
 
 👤 Seyoung Nam
+
+## Example
+![Choice](https://user-images.githubusercontent.com/52446213/64935195-c85aef80-d88a-11e9-8e74-8343b5ac3e44.PNG)
+![Choice4](https://user-images.githubusercontent.com/52446213/64935201-d446b180-d88a-11e9-88ef-b17a1e1ab6fa.PNG)
+![Choice3](https://user-images.githubusercontent.com/52446213/64935203-d7da3880-d88a-11e9-9243-334be66ac9f1.PNG)
+![Choice2](https://user-images.githubusercontent.com/52446213/64935199-d14bc100-d88a-11e9-85aa-bddf3a8e0930.PNG)
+![Choice1](https://user-images.githubusercontent.com/52446213/64935198-cdb83a00-d88a-11e9-8cae-479dbe754d02.PNG)
