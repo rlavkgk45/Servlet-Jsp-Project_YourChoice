@@ -53,8 +53,8 @@ USERINFO|TABLE|
 VOTE|TABLE|
 
 ### Author
-👤 Dong Beom Kim
+👤 Dongbeom Kim
 
 👤 Kyungwon Kim
 
-👤 Se Young Nam
+👤 Seyoung Nam
