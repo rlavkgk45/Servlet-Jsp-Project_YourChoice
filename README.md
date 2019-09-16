@@ -50,5 +50,7 @@ TableName|TABTYPE|
 USERINFO|TABLE|
 VOTE|TABLE|
 
-## Author
-👤 Dong Beom KiM
+### Author
+👤 Dong Beom Kim 
+👤 Kyungwon Kim
+👤 Se Young Nam
