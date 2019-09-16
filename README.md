@@ -50,5 +50,5 @@ TableName|TABTYPE|
 USERINFO|TABLE|
 VOTE|TABLE|
 
-### Author
+## Author
 👤 Dong Beom KiM
